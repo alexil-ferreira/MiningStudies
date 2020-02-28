@@ -3,6 +3,7 @@
 	<name>MiningStudies</name>
 	<comment></comment>
 	<projects>
+		<project>SystemSimilarity</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

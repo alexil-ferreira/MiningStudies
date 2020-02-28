@@ -1,1 +1,4 @@
 /target/
+/metrics/*.csv
+/refactoring/*.csv
+/refactoring/cache/

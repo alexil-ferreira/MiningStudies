@@ -6,7 +6,7 @@ import org.designroleminer.smelldetector.CarregaSalvaArquivo;
 import org.designroleminer.smelldetector.model.LimiarTecnica;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.smellrefactored.SmellRefactoredAllManager;
+import org.smellrefactored.SmellRefactoredManager;
 
 public class ForeCastieStudy {
 
@@ -26,8 +26,9 @@ public class ForeCastieStudy {
 		listThresholdsTechiniques.addAll(
 				CarregaSalvaArquivo.carregarLimiares(System.getProperty("user.dir") + "\\thresholds\\android2020\\forecastie"));
 
-		SmellRefactoredAllManager manager = new SmellRefactoredAllManager(urlRepository, localFolder, initialCommit,
+		SmellRefactoredManager manager = new SmellRefactoredManager(urlRepository, localFolder, initialCommit,
 				finalCommit, listThresholdsTechiniques, resultFile);
+		manager.getSmellRefactoredClasses();
 		manager.getSmellRefactoredMethods();
 	}
 }
