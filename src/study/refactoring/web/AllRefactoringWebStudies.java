@@ -3,32 +3,38 @@ package study.refactoring.web;
 public class AllRefactoringWebStudies {
 	
 	public static void main(String[] args) {
-		AetStudy.main(args);
-		BamboobscStudy.main(args);
-		BigBlueButtonStudy.main(args);
-		BonitaWebStudy.main(args);
-		DroolsWBStudy.main(args);
-		DWSurveyStudy.main(args);
-		DxaStudy.main(args);
-		GeoweStudy.main(args);
-		HawtioStudy.main(args);
-		Heritrix3Study.main(args);
-		IceStudy.main(args);
-		KafkaStudy.main(args);
-		LibreplanStudy.main(args);
-		MesStudy.main(args);
-		MetlStudy.main(args);
-		OpenmpfStudy.main(args);
-		OpenMRSStudy.main(args);
-		OptawebStudy.main(args);
-		PhenotipsStudy.main(args);
-		ProjectForgeStudy.main(args);
-		WeasisStudy.main(args);
-		// WebannoStudy.main(args);
-		WebBudgetStudy.main(args);
-		WebofneedsStudy.main(args);
-		WebprotegeStudy.main(args);
-		ZkspreadsheetStudy.main(args);
+		try { AetStudy.main(args); } catch (Exception e) { show(e); }
+		try { BamboobscStudy.main(args); } catch (Exception e) { show(e); }
+		try { BigBlueButtonStudy.main(args); } catch (Exception e) { show(e); }
+		try { BonitaWebStudy.main(args); } catch (Exception e) { show(e); }
+		try { DroolsWBStudy.main(args); } catch (Exception e) { show(e); }
+		try { DWSurveyStudy.main(args); } catch (Exception e) { show(e); }
+		try { DxaStudy.main(args); } catch (Exception e) { show(e); }
+		try { GeoweStudy.main(args); } catch (Exception e) { show(e); }
+		try { HawtioStudy.main(args); } catch (Exception e) { show(e); }
+		try { Heritrix3Study.main(args); } catch (Exception e) { show(e); }
+		try { IceStudy.main(args); } catch (Exception e) { show(e); }
+		try { KafkaStudy.main(args); } catch (Exception e) { show(e); }
+		try { LibreplanStudy.main(args); } catch (Exception e) { show(e); }
+		try { MesStudy.main(args); } catch (Exception e) { show(e); }
+		try { MetlStudy.main(args); } catch (Exception e) { show(e); }
+		try { OpenmpfStudy.main(args); } catch (Exception e) { show(e); }
+		try { OpenMRSStudy.main(args); } catch (Exception e) { show(e); }
+		try { OptawebStudy.main(args); } catch (Exception e) { show(e); }
+		try { PhenotipsStudy.main(args); } catch (Exception e) { show(e); }
+		try { ProjectForgeStudy.main(args); } catch (Exception e) { show(e); }
+		try { WeasisStudy.main(args); } catch (Exception e) { show(e); }
+		// try { WebannoStudy.main(args); } catch (Exception e) { show(e); }
+		try { WebBudgetStudy.main(args); } catch (Exception e) { show(e); }
+		try { WebofneedsStudy.main(args); } catch (Exception e) { show(e); }
+		try { WebprotegeStudy.main(args); } catch (Exception e) { show(e); }
+		try { ZkspreadsheetStudy.main(args); } catch (Exception e) { show(e); }
+	}
+	
+	private static void show(Exception e) {
+		// logger.error(e.getMessage());
+		 System.out.print(e.getMessage()); 
+		 e.printStackTrace();
 	}
 
 }
