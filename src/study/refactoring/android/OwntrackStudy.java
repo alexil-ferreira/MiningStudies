@@ -15,9 +15,11 @@ public class OwntrackStudy {
 	public static void main(String[] args) {
 
 		String localFolder = "D:\\Projetos\\_Android\\owntracks";
-		String urlRepository = "https://github.com/PhilippC/keepass2android.git";
-		String finalCommit = "9e666c75ee56d1c399f8da217d6903f3e77a2df4"; // Android-v.2.1.3 - 2019.11.01
+
+		String urlRepository = "https://github.com/owntracks/android.git";
 		String initialCommit = "1724aa0331387bcb6a514a5409a6411b78d835b3"; // Android-v.0.4.17 - 2014.02.06
+		String finalCommit = "9e666c75ee56d1c399f8da217d6903f3e77a2df4"; // Android-v.2.1.3 - 2019.11.01
+
 		String resultFile= System.getProperty("user.dir") + "\\refactoring\\owntracks";
 
 		List<LimiarTecnica> listThresholdsTechiniques = CarregaSalvaArquivo

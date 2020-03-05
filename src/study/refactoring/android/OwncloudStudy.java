@@ -16,9 +16,10 @@ public class OwncloudStudy {
 
 		String localFolder = "D:\\Projetos\\_Android\\owncloud";
 		String resultFile= System.getProperty("user.dir") + "\\refactoring\\owncloud";
-		String urlRepository = "https://github.com/AntennaPod/AntennaPod.git";
+
+		String urlRepository = "https://github.com/owncloud/android.git";
+		String initialCommit = "7c8a60c1c35e580ae4d1ba0efb2b19f4f5d081c7"; // 2.0.1 - 2016.06.21
 		String finalCommit = "fe23fedb417ee214f952889b7cfc3915e521e538"; // 2.14.2 - 2020.01.27
-		String initialCommit = "7c8a60c1c35e580ae4d1ba0efb2b19f4f5d081c7"; // 2.0.1 - 2016.06.08
 		
 		List<LimiarTecnica> listThresholdsTechiniques = CarregaSalvaArquivo
 				.carregarLimiares(System.getProperty("user.dir") + "\\thresholds\\android2020\\");

@@ -17,8 +17,8 @@ public class ExoplayerStudy {
 		String localFolder = "D:\\Projetos\\_Android\\ExoPlayer";
 		String resultFile= System.getProperty("user.dir") + "\\refactoring\\ExoPlayer";
 		String urlRepository = "https://github.com/google/ExoPlayer.git";
-		String finalCommit = "49910fe72579c4e55e14b47b0cf3d3ced9474219"; // 2.11.3 - 2020.02.18
 		String initialCommit = "27ab5c83a604407e8649aa4cca1cda0e101b9aab"; // 1.0.10 - 2014.07.16
+		String finalCommit = "49910fe72579c4e55e14b47b0cf3d3ced9474219"; // 2.11.3 - 2020.02.18
 		
 		List<LimiarTecnica> listThresholdsTechiniques = CarregaSalvaArquivo
 				.carregarLimiares(System.getProperty("user.dir") + "\\thresholds\\android2020\\");

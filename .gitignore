@@ -2,3 +2,4 @@
 /metrics/*.csv
 /refactoring/*.csv
 /refactoring/cache/
+/refactoring/*.txt
